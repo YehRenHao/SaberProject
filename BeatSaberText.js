@@ -13,7 +13,7 @@ function createBeatSaberText(){
 
 	var loader = new THREE.FontLoader();
 	var font = loader.load(
-		'../files/fonts/' + fontName + '_' + fontWeight + '.json',
+		'files/fonts/' + fontName + '_' + fontWeight + '.json',
 
 		function ( font ) {
 			textGeo = new THREE.TextGeometry( "Rhythm", {

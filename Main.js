@@ -49,11 +49,11 @@ var pointTop = new THREE.Vector3();
 var pointBot = new THREE.Vector3();
 var notes;
 
-const watermelon = new THREE.TextureLoader().load('../files/images/watermelon.jpg');
-const nuclear = new THREE.TextureLoader().load('../files/images/nuclear.png');
+const watermelon = new THREE.TextureLoader().load('files/images/watermelon.jpg');
+const nuclear = new THREE.TextureLoader().load('files/images/nuclear.png');
 
 var myData;
-$.getJSON('../files/sounds/Cartoon - On _ On (feat. Daniel Levi).json', function(data) {
+$.getJSON('files/sounds/Cartoon - On _ On (feat. Daniel Levi).json', function(data) {
 	myData = data;
 });
 

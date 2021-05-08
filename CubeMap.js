@@ -1,5 +1,5 @@
 function loadBaLLCubeMap(){
-    let path = "../files/cubeMap/Universe/";
+    let path = "files/cubeMap/Universe/";
 	let format = '.jpg';
 	let urls = [
 		path + 'px' + format, path + 'nx' + format,
@@ -14,8 +14,8 @@ function loadBaLLCubeMap(){
 }
 
 function SetSceneCubeMap(){
-    let path = "../files/cubeMap/UniverseDark/";
-	let format = '.png';
+    let path = "files/cubeMap/UniverseDark/";
+	let format = '.jpg';
 	let urls = [
 		path + 'px' + format, path + 'nx' + format,
 		path + 'py' + format, path + 'ny' + format,

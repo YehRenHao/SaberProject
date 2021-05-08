@@ -10,7 +10,7 @@ class myAudio{
 		this.buildBar();
 
 		var geometry = new THREE.CylinderGeometry( 120, 120, 10000, 32, 1, true );
-		this.texture = new THREE.TextureLoader().load('../files/images/tunnel.png')
+		this.texture = new THREE.TextureLoader().load('files/images/tunnel.png')
 		this.texture.wrapT = THREE.RepeatWrapping;
 		var material = new THREE.MeshBasicMaterial({map : this.texture, side: THREE.DoubleSide});
 		material.map.wrapS = THREE.RepeatWrapping;
@@ -26,7 +26,7 @@ class myAudio{
 	music(){
 		this.audio = new Audio();
 		
-		let file = '../files/sounds/Cartoon - On _ On (feat. Daniel Levi).mp3';
+		let file = 'files/sounds/Cartoon - On _ On (feat. Daniel Levi).mp3';
 		
 		this.audio.src = file;
 		this.audio.controls = true;
